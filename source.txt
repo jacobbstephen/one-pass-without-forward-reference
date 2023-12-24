@@ -1,0 +1,8 @@
+COPY    START    1000
+STR     BYTE     C'EOF'
+CLOOP   STA      STR
+        STL      CLOOP
+RESULT  WORD     45
+VAR     BYTE     X'6996'
+        END
+        
